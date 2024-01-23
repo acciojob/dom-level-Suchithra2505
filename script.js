@@ -1,7 +1,7 @@
 //your JS code here. If required.
 document.addEventListener('DOMContentLoaded', function () {
   // Get the element with id 'level'
-  const targetElement = document.getElementById('level');
+  let targetElement = document.getElementById('level');
 
   // Initialize a variable to count the DOM level
   let domLevel = 0;
